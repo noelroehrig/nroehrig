@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="de">
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Noel Röhrig</title>
-	<meta name="description" content="Template by Ceevee">
-	<meta name="author" content="Ceevee">
+   <title>Noel Röhrig — Software Engineer</title>
+   <meta name="description" content="Noel Röhrig — Software Engineer aus Köln mit Schwerpunkt auf C# / .NET, Azure und AI Platform Engineering. Lebenslauf, Werdegang und Blogbeiträge zu LLMs, RAG und KI-Agenten.">
+   <meta name="author" content="Noel Röhrig">
 
    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- CSS
+   <!-- Social / Sharing
+   ================================================== -->
+   <meta property="og:type" content="profile">
+   <meta property="og:title" content="Noel Röhrig — Software Engineer">
+   <meta property="og:description" content="Software Engineer aus Köln mit Schwerpunkt auf C# / .NET, Azure und AI Platform Engineering.">
+   <meta property="og:url" content="https://nroehrig.eu/">
+   <meta name="twitter:card" content="summary">
+
+   <!-- Preconnect to the origin that serves the blog previews
+   ================================================== -->
+   <link rel="preconnect" href="https://codeunity.de">
+   <link rel="dns-prefetch" href="https://codeunity.de">
+
+   <!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
 
    <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+   ================================================== -->
+   <link rel="shortcut icon" href="favicon.png">
 
 </head>
 
@@ -41,14 +51,13 @@
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#blog">Blog</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -56,13 +65,13 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Ich bin Noel Röhrig.</h1>
-            <h3>Ich bin <span>Software-Entwickler (Fachinformatiker für Anwendungsentwicklung)</span> mit einem Schwerpunkt auf <span>C# / .NET</span> im <span>Backend</span> 
-            und der <span>Webentwicklung</span>. 
+            <h3>Ich bin <span>Software Engineer</span> mit Schwerpunkt auf <span>C# / .NET</span>,
+            <span>Azure</span> und <span>AI Platform Engineering</span>.
             <br> Auf dieser schlichten Website erfahren Sie mehr <a class="smoothscroll" href="#about">über mich</a>.</h3>
-            <hr />
+            <hr>
             <ul class="social">
-               <li><a href="https://www.xing.com/profile/Noel_Roehrig" target="_blank"><i class="fa fa-xing"></i></a></li>
-               <li><a href="https://github.com/noelroehrig"  target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.xing.com/profile/Noel_Roehrig" target="_blank" rel="noopener"><i class="fa fa-xing"></i></a></li>
+               <li><a href="https://github.com/noelroehrig" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
             </ul>
          </div>
       </div>
@@ -82,7 +91,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/DSC02030.jpg" alt="" />
+            <img class="profile-pic" src="images/DSC02030.jpg" alt="Noel Röhrig">
 
          </div>
 
@@ -90,14 +99,17 @@
 
             <h2>About Me</h2>
 
-            <p>Ich strebe sowohl beruflich als auch persönlich stets nach Weiterentwicklung und dem aneignen von neuem Wissen. Ich bin
-               Software-Entwickler geworden, um an gesellschaftlich relevanten und zukunftsorientierten Projekten die Welt von morgen
-               mitzugestalten.</br>
+            <p>Ich strebe sowohl beruflich als auch persönlich stets nach Weiterentwicklung und dem Aneignen von
+               neuem Wissen. Ich bin Software-Entwickler geworden, um an gesellschaftlich relevanten und
+               zukunftsorientierten Projekten die Welt von morgen mitzugestalten.<br>
                Ich bin sehr teamfähig und bringe ein hohes Maß an Verantwortungsbereitschaft und persönlichem
-               Engagement mit. In Momenten in denen ich Führungs- bzw. Entscheidungsrollen einnehme, bin ich
-               diplomatisch und zielsicher. Logisch-Mathematische Herausforderungen und eine saubere, 
-               zukunftssichere Lösungsfindung bereiten mir viel Spaß. Ich strebe nach technischem Fortschritt 
-               und lerne sehr schnell. Zudem bin Ich äußerst stressresistent.
+               Engagement mit, besonders für interessante Projekte. In Momenten, in denen ich Führungsrollen
+               einnehme, bin ich diplomatisch und zielsicher. Logisch-mathematische Herausforderungen und eine
+               saubere, zukunftssichere Lösungsfindung bereiten mir viel Spaß. Ich strebe nach technischem
+               Fortschritt und lerne sehr schnell.<br>
+               KI-gestützte Entwicklung und Agentic Coding sind für mich selbstverständlicher Teil des
+               Arbeitsalltags — ich setze sie bewusst und kritisch ein, statt Ergebnisse blind zu übernehmen.
+               Zudem bin ich äußerst stressresistent.
             </p>
 
             <div class="row">
@@ -106,16 +118,16 @@
 
                   <h2>Contact Details</h2>
                   <p class="address">
-						   <span>Noel Röhrig</span><br>
-						   <span>Köln<span><br>
-                     <span>contact@nroehrig.eu</span>
-					   </p>
+                     <span>Noel Röhrig</span><br>
+                     <span>Köln</span><br>
+                     <span><a href="mailto:contact@nroehrig.eu">contact@nroehrig.eu</a></span>
+                  </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="downloads/Lebenslauf_gekürzt.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download Lebenslauf (gekürzt)</a>
+                     <a href="downloads/Lebenslauf_gekürzt.pdf" class="button" target="_blank" rel="noopener"><i class="fa fa-download"></i>Download Lebenslauf (gekürzt)</a>
                   </p>
                </div>
 
@@ -132,66 +144,6 @@
    ================================================== -->
    <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Gymnasium</h3>
-                  <p class="info">Abitur <span>&bull;</span> <em class="date">Juni 2016</em></p>
-
-                  <p>
-                  Mein Abitur habe ich Köln im Jahre 2016 mit einem NC von 2,1 absolviert.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Georg-Simon-Ohm Berufskolleg</h3>
-                  <p class="info">Fachinformatiker für Anwendungsentwicklung <span>&bull;</span> <em class="date">Januar 2020</em></p>
-
-                  <p>
-                  Berufsbegleitend bin Ich während der Ausbildung auf das Georg-Simon-Ohm Berufskolleg gegangen.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Universität zu Köln</h3>
-                  <p class="info">Wirtschaftsinformatik <span>&bull;</span> <em class="date">Oktober 2020 - September 2023</em></p>
-
-                  <p>
-                     Neben meiner Arbeit als Software-Entwickler studiere ich Wirtschaftsinformatik an der Uni in Köln.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
       <!-- Work
       ----------------------------------------------- -->
       <div class="row work">
@@ -206,16 +158,19 @@
 
                <div class="twelve columns">
 
-                  <h3>I-D Media AG</h3>
-                  <p class="info">Fachinformatiker für Anwendungsentwicklung<span>&bull;</span> <em class="date">August 2017 - Januar 2020</em></p>
+                  <h3>codeunity GmbH</h3>
+                  <p class="info">Software Developer (Vollzeit) <span>&bull;</span> <em class="date">Oktober 2023 - Heute</em></p>
 
                   <p>
-                  Meine Ausbildung habe ich bei der I-D Media AG absolviert. Ich habe bereits früh angefangen Verantwortung zu übernehmen
-                  und habe noch während meiner Ausbildung, aufgrund von Eigeninitiative und meinen Erfahrungen, die technische Leitung 
-                  im Geschäftsfeld Sitecore übernommen. Ich habe mich ausgiebig mit Software-Architektur im Backend befasst und meine
-                  Entwicklungen beruhen zum Großteil auf Features in C# und im Backend. </br>
-                  Nach meiner Ausbildung habe ich den Betrieb verlassen, um weiter im Bereich .Net/C# zu wachsen und Anwendungsfall orientierte
-                  Software über der Webentwicklung hinaus zu entwickeln.
+                  Bei der codeunity GmbH entwickle ich diverse Projekte in Azure von der ersten Zeile bis in den
+                  laufenden Betrieb — mit .NET im Backend sowie TypeScript, React und Next.js im Frontend. Ein
+                  Schwerpunkt liegt auf KI-Plattformen: Chatbots, LLM-Integrationen und die Anbindung bestehender
+                  Systeme. Für einen Kunden habe ich einen eigenen KI-Chatbot auf Basis von RAG, Vektordatenbank,
+                  Embeddings und Azure AI Foundry entwickelt.<br>
+                  Darüber hinaus baue ich agentische Lösungen mit SemanticKernel und dem Microsoft Agent Framework,
+                  habe eine virtuelle Umgebung für selbstlaufendes Agentic Coding geschaffen und eine interne
+                  Rechnungssoftware mit LLM-Anbindung entwickelt. Agentic Coding auf professioneller Ebene ist
+                  dabei fester Bestandteil meines täglichen Entwicklungsprozesses.
                   </p>
 
                </div>
@@ -226,15 +181,92 @@
 
                <div class="twelve columns">
 
-                  <h3>Tennis-Point</h3>
-                  <p class="info">Software Developer<span>&bull;</span> <em class="date">März 2020 - Heute</em></p>
+                  <h3>tapio GmbH</h3>
+                  <p class="info">Software Developer (Werkstudent) <span>&bull;</span> <em class="date">Februar 2023 - September 2023</em></p>
 
                   <p>
-                  Nach meiner Ausbildung bin ich zu Tennis-Point als Software-Entwickler im Bereich der Warenhaussystem und Logistik gewechselt.
-                  Ich habe mit meinem Team den Wechsel von SAP B1 zu SAP S4 vollzogen und dabei führend neue Software-Systeme für die Logistikprozesse und den Wareneingang 
-                  entwickelt.</br>
-                  Auf Basis von Blazor und Electron habe ich eine plattformunabhängige Softwarebibliothek als Basis für alle zukünftigen Softwareentwicklungen bei Tennsi-Point 
-                  geschaffen und die Prozesse im Bereich Wareneingang komplett abgebildet. Darüber hinaus habe ich Clean-Code und SOLID-Prinzipien im Team vorangetrieben.
+                  Bei tapio habe ich ein IoT-Ökosystem betreut und weiterentwickelt sowie die Integration eines Zahlungsanbieters
+                  für Abrechnungs- und Zahlungsprozesse umgesetzt. Die Umsetzung erfolgte konsequent nach Domain
+                  Driven Design, hexagonaler Architektur und Event Sourcing.<br>
+                  Zusätzlich habe ich die Azure-Wartung übernommen, die Infrastruktur zu Bicep (Infrastructure as
+                  Code) migriert, auf Managed-Identity-Authentifizierung umgestellt und Integrationstests mit
+                  TestContainers aufgebaut.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Flaschenpost SE, Köln/Münster</h3>
+                  <p class="info">Software Developer (Werkstudent) <span>&bull;</span> <em class="date">Juni 2022 - Januar 2023</em></p>
+
+                  <p>
+                  Bei Flaschenpost habe ich am Refactoring bestehender Strukturen zu Microservices auf Basis von
+                  Cosmos DB und Event Sourcing mitgearbeitet. Daneben habe ich Blazor-Dashboards betreut und in
+                  der App-Entwicklung mit Xamarin mitgewirkt.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Tennis-Point GmbH, Köln</h3>
+                  <p class="info">Software Developer (Werkstudent) <span>&bull;</span> <em class="date">Oktober 2020 - Juni 2022</em></p>
+
+                  <p>
+                  Parallel zum Studium habe ich bei Tennis-Point Mechanismen für Asynchronous Processing mit
+                  Cosmos DB, Service Bus und Event Sourcing eingeführt. Die Blazor-Logistikanwendung habe ich für
+                  mobile Endgeräte und Plattformunabhängigkeit erweitert und die zuvor neu entwickelten
+                  Anwendungen im Betrieb unterstützt und ausgebaut.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Tennis-Point GmbH, Köln</h3>
+                  <p class="info">Software Developer (Vollzeit) <span>&bull;</span> <em class="date">März 2020 - September 2020</em></p>
+
+                  <p>
+                  Nach meiner Ausbildung bin ich als Software-Entwickler zu Tennis-Point in den Bereich
+                  Warenwirtschaft und Logistik gewechselt und habe auf Englisch in einem internationalen
+                  .NET/C#-Team gearbeitet. Ich war für Projektplanung und Architekturdesign zur Ablösung der
+                  Altsysteme verantwortlich und habe die Legacy-Software im Rahmen des SAP-Wechsels von B1 auf S4
+                  refactored.<br>
+                  Die neue Logistiksoftware auf Basis von Blazor und Electron habe ich federführend entwickelt und
+                  dabei Clean Code sowie die SOLID-Prinzipien im Team eingeführt.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>I-D Media AG, Köln</h3>
+                  <p class="info">Ausbildung zum Fachinformatiker für Anwendungsentwicklung <span>&bull;</span> <em class="date">August 2017 - Januar 2020</em></p>
+
+                  <p>
+                  Meine Ausbildung habe ich bei der I-D Media AG absolviert, mit Schwerpunkt auf Sitecore- und
+                  .NET-Backend-Entwicklung in C#, HTML und JavaScript. Ich habe früh Verantwortung übernommen und
+                  noch während der Ausbildung, aufgrund von Eigeninitiative und meinen Erfahrungen, die technische
+                  Leitung im Geschäftsfeld Sitecore erhalten.<br>
+                  Maßgeblich beteiligt war ich an der Planung und Entwicklung einer Übersetzungssoftware für
+                  CMS-Systeme. Dazu kam intensive Kundenbetreuung und Beratung.
                   </p>
 
                </div>
@@ -244,6 +276,52 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Work -->
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Universität zu Köln</h3>
+                  <p class="info">Bachelor Wirtschaftsinformatik <span>&bull;</span> <em class="date">Oktober 2020 - September 2023</em></p>
+
+                  <p>
+                  Neben meiner Arbeit als Software-Entwickler habe ich Wirtschaftsinformatik an der Universität zu
+                  Köln studiert und den Bachelor mit der Note 2,2 abgeschlossen.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Gymnasium, Köln</h3>
+                  <p class="info">Abitur <span>&bull;</span> <em class="date">Juni 2016</em></p>
+
+                  <p>
+                  Mein Abitur habe ich in Köln im Jahre 2016 mit der Note 2,1 absolviert.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
 
 
       <!-- Skills
@@ -256,324 +334,197 @@
 
          <div class="nine columns main-col">
 
-            <p>Beruflich habe ich mich bisher ausgiebig mit C# und .NET Core / .NET 5 befasst. Darüber
-               hinaus hat die Beschäftigung als Webentwickler mich auch vor Frontend Technologien
-               wie CSS, HTML und JS in diversen Frameworks gestellt, so dass ich eine Grunderfahrung
-               in diesen entwickelt habe. </br>
-               Privat habe ich mich mit der Entwicklung einiger kleinerer Anwendungen unter anderem in
-               Python beschäftigt, um einerseits die Anwendung selbst als Produkt nutzen zu können, aber
-               auch um mich in neue Technologien einzuarbeiten.
+            <p>Mein Schwerpunkt liegt auf C# und .NET im Backend sowie auf Azure als Plattform — von der
+               API-Entwicklung nach OpenAPI über Infrastructure as Code mit Bicep bis zu CI/CD-Pipelines in
+               Azure DevOps. In den letzten Jahren ist KI-Engineering dazugekommen: LLM-Integration, RAG mit
+               Embeddings und Vektordatenbanken sowie agentische Systeme mit SemanticKernel und dem Microsoft
+               Agent Framework.<br>
+               Im Frontend arbeite ich mit TypeScript, React und Next.js, davor über Jahre mit Blazor.
+               Architektur ist mir wichtig: Clean Architecture, hexagonale Architektur, Domain Driven Design und
+               Event-driven Ansätze prägen meine Arbeit ebenso wie Clean Code, SOLID und ein belastbares
+               Testfundament mit xUnit, NUnit und TestContainers.
             </p>
 
-				<div class="bars">
+            <div class="bars">
 
-				   <ul class="skills">
-						<li><span class="bar-expand craute"></span><em>C#</em></li>
-					   <li><span class="bar-expand net"></span><em>.NET</em></li>
-						<li><span class="bar-expand blazor"></span><em>Blazor</em></li>
-                  <li><span class="bar-expand oop"></span><em>OOP</em></li>
-                  <li><span class="bar-expand oop"></span><em>Clean Code</em></li>
-                  <li><span class="bar-expand projektleitung"></span><em>Projektplanung / Technische Leitung</em></li>
-						<li><span class="bar-expand sitecore"></span><em>Sitecore</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML</em></li>
-						<li><span class="bar-expand javascript"></span><em>Javascript</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-                  <li><span class="bar-expand python"></span><em>Python</em></li>
-					</ul>
+               <ul class="skills">
+                  <li><span class="bar-expand skill-95"></span><em>C# / .NET</em></li>
+                  <li><span class="bar-expand skill-90"></span><em>Clean Code, SOLID &amp; OOP</em></li>
+                  <li><span class="bar-expand skill-85"></span><em>Azure &amp; Cloud</em></li>
+                  <li><span class="bar-expand skill-85"></span><em>KI &amp; Agentic Engineering</em></li>
+                  <li><span class="bar-expand skill-85"></span><em>Software-Architektur (DDD, Clean, Event-driven)</em></li>
+                  <li><span class="bar-expand skill-80"></span><em>API-Entwicklung, (MS)SQL &amp; Cosmos DB</em></li>
+                  <li><span class="bar-expand skill-80"></span><em>Blazor</em></li>
+                  <li><span class="bar-expand skill-75"></span><em>Testing (xUnit, NUnit, TestContainers)</em></li>
+                  <li><span class="bar-expand skill-75"></span><em>Projektplanung / Architekturdesign</em></li>
+                  <li><span class="bar-expand skill-70"></span><em>TypeScript / React / Next.js</em></li>
+                  <li><span class="bar-expand skill-70"></span><em>DevOps (Bicep, Docker, CI/CD)</em></li>
+                  <li><span class="bar-expand skill-40"></span><em>Python</em></li>
+               </ul>
 
-				</div><!-- end skill-bars -->
+            </div><!-- end skill-bars -->
 
-			</div> <!-- main-col end -->
+         </div> <!-- main-col end -->
 
       </div> <!-- End skills -->
 
    </section> <!-- Resume Section End-->
 
 
-   <!-- Portfolio Section
+   <!-- Blog Section
    ================================================== -->
-   <section id="portfolio">
+   <section id="blog">
 
       <div class="row">
 
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works. (WORK IN PROGRESS)</h1>
+            <h1>Aus meiner Feder — eine Blogreihe zu KI, LLMs und Agenten auf codeunity.de</h1>
 
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <!-- blog-wrapper -->
+            <div id="blog-wrapper" class="bgrid-thirds s-bgrid-halves cf">
 
-          	   <div class="columns portfolio-item">
+               <div class="columns blog-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/sitecore.jpg" style="width: 200px; height: 200px; padding-left:15px;">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Sitecore</h5>
-                              <p>Webentwicklung in ASP.NET</p>
-          					   </div>
+                     <a href="https://codeunity.de/blog/eigene-ki-anwendung-vs-standard" target="_blank" rel="noopener">
+
+                        <div class="item-media">
+                           <picture>
+                              <source type="image/avif" srcset="https://codeunity.de/assets/ai-software-intro.DkLXo6QN_Z2l2mkR.avif 1x, https://codeunity.de/assets/ai-software-intro.DkLXo6QN_CrbvH.avif 2x">
+                              <img src="https://codeunity.de/assets/ai-software-intro.DkLXo6QN.jpg" width="480" height="320" loading="lazy" decoding="async" alt="Eigene KI-Anwendungen statt Standardlösungen">
+                           </picture>
+                           <div class="overlay">
+                              <div class="blog-item-meta">
+                                 <p>Out of the box Lösungen reichen nicht mehr aus</p>
+                                 <p class="date">03.02.2026</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="fa fa-external-link"></i></div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+
+                        <h5 class="item-title">Eigene KI-Anwendungen statt Standardlösungen</h5>
+
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <div class="columns blog-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/vrs.svg" style="width: 200px; height: 200px; padding-left:15px;">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>VRS Monitor</h5>
-                              <p>Python Anwendung für den ÖPNV</p>
-          					   </div>
+                     <a href="https://codeunity.de/blog/llm-mit-tools-semanticKernel" target="_blank" rel="noopener">
+
+                        <div class="item-media">
+                           <picture>
+                              <source type="image/avif" srcset="https://codeunity.de/assets/ai-tool-use.QTlXCM9p_26x156.avif 1x, https://codeunity.de/assets/ai-tool-use.QTlXCM9p_2dXuOR.avif 2x">
+                              <img src="https://codeunity.de/assets/ai-tool-use.QTlXCM9p.jpg" width="480" height="320" loading="lazy" decoding="async" alt="Tools für LLMs mit Semantic Kernel">
+                           </picture>
+                           <div class="overlay">
+                              <div class="blog-item-meta">
+                                 <p>Plugins &amp; Orchestrierung mit dem SemanticKernel Framework</p>
+                                 <p class="date">27.02.2026</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="fa fa-external-link"></i></div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+
+                        <h5 class="item-title">Tools für LLMs mit Semantic Kernel</h5>
+
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
-                <div class="columns portfolio-item">
-                   <div class="item-wrap">
- 
-                      <a href="#modal-03" title="">
-                         <img alt="" src="images/Blazor.png" style="width: 200px; height: 200px; padding-left:15px;">
-                         <div class="overlay">
-                            <div class="portfolio-item-meta">
-                               <h5>Blazor</h5>
-                               <p>Webframework für C#</p>
-                             </div>
-                         </div>
-                         <div class="link-icon"><i class="icon-plus"></i></div>
-                      </a>
- 
-                   </div>
-                 </div> <!-- item end -->
+               <div class="columns blog-item s-first">
+                  <div class="item-wrap">
 
+                     <a href="https://codeunity.de/blog/ki-mit-rag-vektorsuche" target="_blank" rel="noopener">
 
+                        <div class="item-media">
+                           <picture>
+                              <source type="image/avif" srcset="https://codeunity.de/assets/ai-rag.DhWZBSUc_uWdHN.avif 1x, https://codeunity.de/assets/ai-rag.DhWZBSUc_Iiykh.avif 2x">
+                              <img src="https://codeunity.de/assets/ai-rag.DhWZBSUc.jpg" width="480" height="320" loading="lazy" decoding="async" alt="Wer den KI Kontext kontrolliert, gewinnt">
+                           </picture>
+                           <div class="overlay">
+                              <div class="blog-item-meta">
+                                 <p>Mit Embeddings, Chunking und Vector DB zum eigenen RAG-System</p>
+                                 <p class="date">30.03.2026</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="fa fa-external-link"></i></div>
+                        </div>
 
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
+                        <h5 class="item-title">Wer den KI Kontext kontrolliert, gewinnt</h5>
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+                     </a>
 
-		      <img class="scale-with-grid" src="images/sitecore.jpg" alt="" style="width: 400px; height: 400px; margin-left: 75px;"/>
+                  </div>
+               </div> <!-- item end -->
 
-		      <div class="description-box">
-			      <h4>Sitecore Entwicklung</h4>
-			      <p>Während meiner Ausbildung habe ich ausgiebig mit dem .NET Enterprise CMS Sitecore gearbeitet.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Backend, Webentwicklung, .NET</span>
-		      </div>
+               <div class="columns blog-item first">
+                  <div class="item-wrap">
 
-            <div class="link-box">
-               <a href="http://www.sitecore.com" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+                     <a href="https://codeunity.de/blog/ki-agenten" target="_blank" rel="noopener">
 
-	      </div><!-- modal-01 End -->
+                        <div class="item-media">
+                           <picture>
+                              <source type="image/avif" srcset="https://codeunity.de/assets/ai-agents.Be0ybhmK_ZOT4Ll.avif 1x, https://codeunity.de/assets/ai-agents.Be0ybhmK_Z22fMwk.avif 2x">
+                              <img src="https://codeunity.de/assets/ai-agents.Be0ybhmK.jpg" width="480" height="320" loading="lazy" decoding="async" alt="KI Agenten verstehen — Tools, Loops und Context-Engineering">
+                           </picture>
+                           <div class="overlay">
+                              <div class="blog-item-meta">
+                                 <p>Wie KI Agenten funktionieren und wie wir sie bauen</p>
+                                 <p class="date">06.05.2026</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="fa fa-external-link"></i></div>
+                        </div>
 
-         <div id="modal-02" class="popup-modal mfp-hide">
+                        <h5 class="item-title">KI Agenten verstehen — Tools, Loops und Context-Engineering</h5>
 
-		      <img class="scale-with-grid" src="images/vrs.svg" alt="" style="width: 400px; height: 400px; margin-left: 75px;"/>
+                     </a>
 
-		      <div class="description-box">
-			      <h4>VRS Monitor (WIP)</h4>
-			      <p>Privat habe ich eine Open Source Python Anwendung entwickelt, die VRS Haltestellen nach Abfahrten prüft. 
-                  Über eine Raspberry Pi und einen kleinen Monitor lässt sich eine Anzeige für nahe Haltestellen an der Wohnungstür installieren.
-                  Zukünftig soll das Programm weltweit für Public Transport Haltestellen eingesetzt werden können.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Python, API, </span>
-		      </div>
+                  </div>
+               </div> <!-- item end -->
 
-            <div class="link-box">
-               <a href="https://github.com/noelroehrig/VRSMonitor" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+               <div class="columns blog-item s-first">
+                  <div class="item-wrap">
 
-	      </div><!-- modal-02 End -->
+                     <a href="https://codeunity.de/blog/ki-entscheidung" target="_blank" rel="noopener">
 
-         <div id="modal-03" class="popup-modal mfp-hide">
+                        <div class="item-media">
+                           <picture>
+                              <source type="image/avif" srcset="https://codeunity.de/assets/ai-decisions.CmdD0mw9_1F934O.avif 1x, https://codeunity.de/assets/ai-decisions.CmdD0mw9_2pN2Xz.avif 2x">
+                              <img src="https://codeunity.de/assets/ai-decisions.CmdD0mw9.jpg" width="480" height="320" loading="lazy" decoding="async" alt="KI im Unternehmen: nüchterne Entscheidung statt Hype">
+                           </picture>
+                           <div class="overlay">
+                              <div class="blog-item-meta">
+                                 <p>Eine Entscheidungshilfe für eigene KI-Projekte im Unternehmen</p>
+                                 <p class="date">24.07.2026</p>
+                              </div>
+                           </div>
+                           <div class="link-icon"><i class="fa fa-external-link"></i></div>
+                        </div>
 
-		      <img class="scale-with-grid" src="images/Blazor.png" alt="" style="width: 400px; height: 400px; margin-left: 75px;"/>
+                        <h5 class="item-title">KI im Unternehmen: nüchterne Entscheidung statt Hype</h5>
 
-		      <div class="description-box">
-			      <h4>Blazor</h4>
-			      <p>Mit Blazor lassen sich interaktive Web-UIs mit C# anstelle von JavaScript erstellen. 
-                  Blazor-Anwendungen bestehen aus wiederverwendbaren Web-UI-Komponenten, die mit C#, HTML und CSS implementiert werden. 
-                  Sowohl der Client- als auch der Servercode ist in C# geschrieben, sodass sich Code und Bibliotheken gemeinsam nutzen lassen.
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>C#, .NET 5 / .NET Core, Web</span>
-		      </div>
+                     </a>
 
-            <div class="link-box">
-               <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank">Blazor</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+                  </div>
+               </div> <!-- item end -->
 
-	      </div><!--
+            </div> <!-- blog-wrapper End -->
 
-         <div id="modal-03" class="popup-modal mfp-hide">
+            <p class="blog-all">
+               <a href="https://codeunity.de/blog" class="button" target="_blank" rel="noopener">Alle Beiträge auf codeunity.de</a>
+            </p>
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div>-->
-
+         </div> <!-- twelve columns End -->
 
       </div> <!-- row End -->
 
-   </section> <!-- Portfolio Section End-->
-
-
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Alle Aufgaben führt er jederzeit vollkommen selbstständig, äußerst sorgfältig und planvoll durchdacht aus. Er agiert immer ruhig, überlegt, 
-                              zielorientiert und in höchstem Maße präzise. Dabei überzeugt er stets in besonderer Weise sowohl in qualitativer als auch in quantitativer Hinsicht.
-                           </p>
-                           <cite>Tennis-Point Zwischenzeugnis</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>Gegenüber Vorgesetzten und Kollegen sowie Mitauszubildenden verhielt er sich immer einwandfrei, konstruktiv und kooperativ. Unsere Kunden
-                              schätzten ihn stets als freundlichen und hilfsbereiten Ansprechpartner.
-                           </p>
-                           <cite> I-D Media AG Arbeitszeugnis</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
+   </section> <!-- Blog Section End-->
 
 
    <!-- footer
@@ -585,13 +536,13 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="https://www.xing.com/profile/Noel_Roehrig" target="_blank"><i class="fa fa-xing"></i></a></li>
-               <li><a href="https://github.com/noelroehrig"  target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.xing.com/profile/Noel_Roehrig" target="_blank" rel="noopener"><i class="fa fa-xing"></i></a></li>
+               <li><a href="https://github.com/noelroehrig" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+               <li>&copy; 2026 Noel Röhrig</li>
+               <li>Design by <a title="Styleshout" href="https://www.styleshout.com/" target="_blank" rel="noopener">Styleshout</a></li>
             </ul>
 
          </div>
@@ -604,14 +555,12 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 
 </body>
